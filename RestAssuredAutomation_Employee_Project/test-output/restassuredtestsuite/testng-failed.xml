@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restassuredtestsuite]">
+  <test thread-count="5" name="EmpRestAssuretTEst(failed)">
+    <classes>
+      <class name="employeeApi_TestCases.TC002_Get_Single_Empdata">
+        <methods>
+          <include name="setup"/>
+          <include name="getsingleEmployees"/>
+          <include name="checkResponseBody"/>
+        </methods>
+      </class> <!-- employeeApi_TestCases.TC002_Get_Single_Empdata -->
+    </classes>
+  </test> <!-- EmpRestAssuretTEst(failed) -->
+</suite> <!-- Failed suite [restassuredtestsuite] -->

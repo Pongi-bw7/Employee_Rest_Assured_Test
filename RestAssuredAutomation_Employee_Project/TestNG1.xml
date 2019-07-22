@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="restassuredtestsuite">
+
+	<listeners>
+		<listener class-name="employeeApi_Utilities.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="EmpRestAssuretTEst">
+		<classes>
+
+			<class name="employeeApi_TestCases.TC001_Get_All_Employee" />
+			<class name="employeeApi_TestCases.TC002_Get_Single_Empdata" />
+			<class name="employeeApi_TestCases.TC003_Post_EmpRecord" />
+			<class name="employeeApi_TestCases.TC004_Put_EmpRecord" />
+			<class name="employeeApi_TestCases.TC005_Delete__EmpRecord" />
+
+		</classes>
+
+	</test>
+
+</suite>
